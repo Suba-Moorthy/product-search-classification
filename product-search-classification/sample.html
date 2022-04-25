@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phygital Intern</title>
+    <link rel="stylesheet" href="./stylesheet.css">
+    <script type="text/javascript" src="./script.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <center><p>Enter the name of the product to find</p></center>
+    <form id="search">
+        <center><h2>Search Product</h2></center>
+        <input type="text"  id="name" name="name" placeholder="Enter the name of the Product">
+        <input type="submit" value="Search" onclick="searchByName() ; return false;" >
+    </form>
+    
+    <form id="category1">
+        <input type="text" id="CategoryLevel1" name="CategoryLevel" placeholder="Enter the Category of the Product">
+        <input type="submit" value="Search" onclick="category1(); return false; ">
+    </form>
+    <form id="category2">
+        <input type="text" id="CategoryLevel2" name="CategoryLevel" placeholder="Enter the Category of the Product">
+        <input type="submit" value="Search" onclick="category2(); return false;">
+    </form>
+    <form id="category3">
+        <input type="text" id="CategoryLevel3" name="CategoryLevel" placeholder="Enter the Category of the Product">
+        <input type="submit" value="Search" onclick="category3(); return false;">
+    </form>
+    <div id="myData"></div>
+    <div id="content1"></div>
+    </div>
+</body>
+</html>
